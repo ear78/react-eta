@@ -1,0 +1,16 @@
+.PageTitle h1 {
+    font-size: 2.5em;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-top: 11vh;
+    margin-bottom: 5px;
+    transition: all .2s ease;
+}
+
+.PageTitle h5 {
+    font-size: 1em;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    margin-bottom: 30px;
+}

@@ -1,15 +1,18 @@
 import React from "react";
 
+import PageTitle from '../../Components/PageTitle/PageTitle';
 import "./Login.css";
 
-// import SignUpButtonComponent from "../signupbuttoncomponent/SignUpButtonComponent.js";
+import SignupButton from "../../Components/SignupButton/SignupButton";
 
 class Login extends React.Component {
     constructor(){
         super();
         this.state = {
             username: '',
-            password: ''
+            password: '',
+            title: 'Login To ETA',
+            subTitle: 'Track Your Adventures'
         }
     }
 
@@ -28,8 +31,9 @@ class Login extends React.Component {
     render() {
         return (
             <div className="Login-container">
-                <h1>Login To ETA</h1>
-                <h5>Track Your Adventures</h5>
+                <PageTitle
+                title={this.state.title} subTitle={this.state.subTitle}/>
+
                 <div className="Login-background">
                     <form onSubmit={this.onSubmit.bind(this)}>
                     <input type="text" placeholder="User Name" value={this.state.username}
@@ -40,7 +44,7 @@ class Login extends React.Component {
                     onChange={this.onChange.bind(this)} name="password"/>
                     <p>Have An Account? Sign Up Below!</p>
                     <button type="submit">Login</button>
-                    {/*<SignUpButtonComponent />*/}
+                    <SignupButton />
                     </form>
                 </div>
 
