@@ -16,6 +16,10 @@
     transition: all .2s ease;
 }
 
+.home h5 {
+    margin-bottom: 40px;
+}
+
 .home img {
     width: 100px;
     height: auto;

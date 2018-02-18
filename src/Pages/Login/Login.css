@@ -1,0 +1,88 @@
+.Login-container {
+    height: 75vh;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Login-background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0,0,0,.325);
+    min-height: 300px;
+    padding: 40px 0px;
+}
+
+.Login-background form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Login-container h1 {
+    font-size: 2.5em;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-top: 1vh;
+    margin-bottom: 5px;
+    transition: all .2s ease;
+}
+
+.Login-background input {
+    height: 40px;
+    width: 235px;
+    border: none;
+    padding-left: 5px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 100;
+    margin-bottom: 12px;
+    background: none;
+    border-bottom: 1px solid black;
+}
+
+.Login-background input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+.Login-background input::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+.Login-background input:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+.Login-background input:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+
+.Login-background button {
+    height: 45px;
+    width: 150px;
+    border-radius: 2px;
+    background: white;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.Login-background .signup-button button {
+    height: 45px;
+    width: 150px;
+    margin-top: 1vh;
+    text-transform: uppercase;
+    font-weight: 100;
+    background: black;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    box-shadow: 1px 1px 5px rgba(0,0,0,.325);
+}
+
+.Login-background p {
+    font-size: .8em;
+    color: lightgray;
+    font-weight: 100;
+    margin: 0px 0 15px;
+}

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import Home from './Pages/Home/Home';
+import Header from './Components/Header/Header';
+import Login from './Pages/Login/Login';
 import './Css/Reset.css';
 import './Layout.css';
 
@@ -11,8 +13,10 @@ class Layout extends Component {
   render() {
     return (
       <div className="Layout">
+        <Header />
         <Switch>
             <Route path="/" exact component={Home} />
+            <Route path="/login" exact component={Login} />
         </Switch>
       </div>
     );
