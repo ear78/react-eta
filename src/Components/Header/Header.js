@@ -32,7 +32,7 @@ class Header extends React.Component {
             <i className="material-icons">menu</i>
         </div>
         <div>
-            <Link to="Login"><button>Login</button></Link>
+            <Link to="login"><button>Login</button></Link>
         </div>
 
 
