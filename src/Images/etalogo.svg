@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 673 774" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-1863.52,-1026.55)">
+        <g transform="matrix(1,0,0,1,0,44.8125)">
+            <g id="ear-logo1" transform="matrix(2.49771,0,0,2.49771,1853.63,972.911)">
+                <path d="M138.674,8.339L268.585,83.343L268.585,233.352L138.674,308.356L8.763,233.352L8.763,83.343L138.674,8.339L138.674,8.339Z" style="fill:none;stroke:rgb(26,26,26);stroke-width:9.61px;"/>
+                <g transform="matrix(1,0,0,1,37.874,183.799)">
+                    <text x="0px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:72px;fill:none;">&lt;</text>
+                    <text x="0px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:72px;stroke:rgb(26,26,26);stroke-width:0.4px;stroke-linecap:butt;stroke-miterlimit:1.41421;">&lt;</text>
+                </g>
+                <g transform="matrix(1,0,0,1,40.3883,-0.0311562)">
+                    <path d="M138.674,138.795L158.227,177.9L119.121,177.9L138.674,138.795Z" style="fill:none;stroke:rgb(26,26,26);stroke-width:2px;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,78.068,178.469)">
+                    <text x="0px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:55.468px;fill:none;">E</text>
+                    <text x="0px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:55.468px;stroke:rgb(26,26,26);stroke-width:0.4px;stroke-linecap:butt;stroke-miterlimit:1.41421;">E</text>
+                </g>
+                <g transform="matrix(1,0,0,1,201.281,185.062)">
+                    <text x="0px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:72px;fill:none;">&gt;</text>
+                    <text x="0px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:72px;stroke:rgb(26,26,26);stroke-width:0.4px;stroke-linecap:butt;stroke-miterlimit:1.41421;">&gt;</text>
+                </g>
+                <g transform="matrix(0.400367,0,0,0.400367,-752.117,-369.73)">
+                    <text x="2182.4px" y="1367.74px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:138.5px;fill:none;">T</text>
+                    <text x="2182.4px" y="1367.74px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:138.5px;fill:rgb(26,26,26);stroke:rgb(26,26,26);stroke-width:1px;stroke-linecap:butt;stroke-miterlimit:1.41421;">T</text>
+                </g>
+                <g transform="matrix(0.217627,0,0,0.213659,-333.593,-209.111)">
+                    <ellipse cx="2170.08" cy="1156.64" rx="29.435" ry="30" style="fill:rgb(26,26,26);"/>
+                </g>
+                <g transform="matrix(0.217627,0,0,0.213659,-333.593,34.4777)">
+                    <ellipse cx="2170.08" cy="1156.64" rx="29.435" ry="30" style="fill:rgb(26,26,26);"/>
+                </g>
+                <g transform="matrix(0.400367,0,0,0.400367,-720.838,-388.648)">
+                    <text x="2076.32px" y="1533.91px" style="font-family:'Futura-Medium', 'Futura', sans-serif;font-weight:500;font-size:32px;fill:none;">ES<tspan x="2113.52px 2127.97px 2137.85px " y="1533.91px 1533.91px 1533.91px ">T. </tspan>20<tspan x="2184.76px 2201.54px " y="1533.91px 1533.91px ">17</tspan></text>
+                    <text x="2076.32px" y="1533.91px" style="font-family:'Futura-Medium', 'Futura', sans-serif;font-weight:500;font-size:32px;fill:rgb(26,26,26);stroke:rgb(26,26,26);stroke-width:1px;stroke-linecap:butt;stroke-miterlimit:1.41421;">ES<tspan x="2113.52px 2127.97px 2137.85px " y="1533.91px 1533.91px 1533.91px ">T. </tspan>20<tspan x="2184.76px 2201.54px " y="1533.91px 1533.91px ">17</tspan></text>
+                </g>
+                <g transform="matrix(1.83502,0,0,1.83502,137.673,90.994)">
+                    <g transform="matrix(1,0,0,1,-12,-12)">
+                        <path d="M2.5,19L21.5,19L21.5,21L2.5,21L2.5,19ZM22.07,9.64C21.86,8.84 21.03,8.36 20.23,8.58L14.92,10L8.02,3.57L6.09,4.08L10.23,11.25L5.26,12.58L3.29,11.04L1.84,11.43L3.66,14.59L4.43,15.92L6.03,15.49L11.34,14.07L15.69,12.91L21,11.49C21.81,11.26 22.28,10.44 22.07,9.64Z" style="fill-rule:nonzero;"/>
+                        <rect x="0" y="0" width="24" height="24" style="fill:none;"/>
+                    </g>
+                </g>
+                <g transform="matrix(0.36957,0,0,0.400367,-673.533,-409.865)">
+                    <path d="M2130,1600L2260,1600" style="fill:none;stroke:black;stroke-width:3.12px;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
