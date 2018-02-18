@@ -28,7 +28,7 @@ class Header extends React.Component {
   render() {
     return (
       <header className="Header">
-        <div onClick={this.handleClickOpenMenu.bind(this)} class="hambuger-container">
+        <div onClick={this.handleClickOpenMenu.bind(this)} className="hambuger-container">
             <i className="material-icons">menu</i>
         </div>
         <div>

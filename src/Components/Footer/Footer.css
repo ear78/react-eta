@@ -1,0 +1,40 @@
+.Footer {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.Footer-line {
+    background: black;
+    height: 1px;
+    width: 75%;
+    margin: 0 auto 12px;
+}
+
+.Footer a {
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #131313;
+}
+
+.Footer .Social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.Footer p {
+    text-align: center;
+    color: gray;
+    text-transform: uppercase;
+    font-size: .6em;
+    background: none;
+    width: 100%;
+}

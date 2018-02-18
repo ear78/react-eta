@@ -7,7 +7,7 @@ import etalogo from '../../Images/etalogo.svg';
 class Home extends React.Component {
     render() {
         return (
-            <section class="home">
+            <section className="home">
                 <h1>Explore The Air</h1>
                 <h5>One Adventure At A Time</h5>
                 <img src={etalogo} alt="eta logo"/>

@@ -1,8 +1,10 @@
 .Login-container {
     height: 75vh;
-    width: 90%;
     margin: 0 auto;
     text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .Login-background {
@@ -12,6 +14,7 @@
     background: rgba(0,0,0,.325);
     min-height: 300px;
     padding: 40px 0px;
+    width: 90%;
 }
 
 .Login-background form {
