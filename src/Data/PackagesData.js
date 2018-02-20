@@ -1,10 +1,10 @@
 const packagesData = [
     {
-        "city": "Vancouver",
-        "country": "Canada",
+        "city": "Reykjavik",
+        "country": "Iceland",
         "price": 1499,
         "days": 7,
-        "img": require("../Images/paul-morris-mtn.jpg")
+        "img": require("../Images/sean-afnan-waterfall.jpg")
     },
     {
         "city": "Vancouver",
@@ -14,15 +14,15 @@ const packagesData = [
         "img": require("../Images/paul-morris-mtn.jpg")
     },
     {
-        "city": "Vancouver",
-        "country": "Canada",
+        "city": "Big Sur",
+        "country": "USA",
         "price": 1499,
         "days": 7,
         "img": require("../Images/tim-trad-truck.jpg")
     },
     {
-        "city": "Vancouver",
-        "country": "Canada",
+        "city": "Kiruna",
+        "country": "Sweden",
         "price": 1499,
         "days": 7,
         "img": require("../Images/forrest-cavale-lights.jpg")

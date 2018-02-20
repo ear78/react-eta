@@ -2,30 +2,38 @@ import React from 'react';
 
 import packagesData from '../../Data/PackagesData';
 import './Packages.css';
+import truck from '../../Images/tim-trad-truck.jpg';
+import PageTitle from '../../Components/PageTitle/PageTitle';
 
 class Packages extends React.Component {
     constructor(){
         super();
         this.state = {
-            trips: packagesData
+            trips: packagesData,
+            title: 'Packages',
+            subTitle: 'Choose Your Adventure'
         }
     }
     render(){
-        console.log(packagesData);
         const packagesList = this.state.trips.map((trip,index) => {
             return (
-                <div key={index}>
-                    <p><img src={trip.img} /></p>
-                    <p>Destination - {trip.country}, {trip.city}</p>
+                <article key={index}>
+                    <p className="Image-container" style={{backgroundImage: `linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(${trip.img})`}}>
+                        <h4>{trip.country}, {trip.city}</h4>
+                    </p>
+
                     <p>Days - {trip.days}</p>
                     <p>Price - {trip.price.toLocaleString()}</p>
-                </div>
+                </article>
             )
 
         })
         return (
-            <section className="Packages">{packagesList}</section>
-
+            <div className="Packages">
+                <PageTitle
+                title={this.state.title} subTitle={this.state.subTitle}/>
+                <section className="Packages-list">{packagesList}</section>
+            </div>
         )
     }
 }
