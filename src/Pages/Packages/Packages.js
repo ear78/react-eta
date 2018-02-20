@@ -15,15 +15,19 @@ class Packages extends React.Component {
         }
     }
     render(){
+        const titleStyle = {
+            color: '#fff'
+        }
         const packagesList = this.state.trips.map((trip,index) => {
             return (
                 <article key={index}>
                     <p className="Image-container" style={{backgroundImage: `linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(${trip.img})`}}>
                         <h4>{trip.country}, {trip.city}</h4>
                     </p>
-
-                    <p>Days - {trip.days}</p>
-                    <p>Price - {trip.price.toLocaleString()}</p>
+                    <div className="Desc">
+                        <p>Days - {trip.days}</p>
+                        <p>Price - ${trip.price.toLocaleString()}</p>
+                    </div>
                 </article>
             )
 

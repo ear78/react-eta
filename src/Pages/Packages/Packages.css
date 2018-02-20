@@ -19,7 +19,7 @@
     max-height: 92%;
 }
 
-.Packages .Image-container {
+.Packages-list .Image-container {
     position: relative;
     background-position: 50% 50%;
     background-size: cover;
@@ -28,11 +28,14 @@
     width: 223px;
 }
 
-.Packages p {
+.Packages-list .Desc {
+    padding: 8px 0;
+}
+.Packages-list p {
     color: #fff;
 }
 
-.Packages h4 {
+.Packages-list h4 {
     position: absolute;
     width: 100%;
     top: 45%;
