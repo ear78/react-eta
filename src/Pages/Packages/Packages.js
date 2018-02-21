@@ -11,13 +11,14 @@ class Packages extends React.Component {
         this.state = {
             trips: packagesData,
             title: 'Packages',
-            subTitle: 'Choose Your Adventure'
+            subTitle: 'Choose Your Adventure',
+            titleStyles: {
+                color: '#fff',
+                marginTop: '20px'
+            }
         }
     }
     render(){
-        const titleStyle = {
-            color: '#fff'
-        }
         const packagesList = this.state.trips.map((trip,index) => {
             return (
                 <article key={index}>
@@ -35,7 +36,11 @@ class Packages extends React.Component {
         return (
             <div className="Packages">
                 <PageTitle
-                title={this.state.title} subTitle={this.state.subTitle}/>
+                title={this.state.title}
+                subTitle={this.state.subTitle}
+                color={this.state.titleStyles.color}
+                marginTop={this.state.titleStyles.marginTop}
+                />
                 <section className="Packages-list">{packagesList}</section>
             </div>
         )
