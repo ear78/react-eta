@@ -22,11 +22,11 @@ class Packages extends React.Component {
     render(){
         const packagesList = this.state.trips.map((trip,index) => {
             return (
-                <Link to={'/package/' + index} key={index}>
+                <Link to={'/package/' + trip.id} key={index}>
                 <article >
-                    <p className="Image-container" style={{backgroundImage: `linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(${trip.img})`}}>
+                    <div className="Image-container" style={{backgroundImage: `linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(${trip.img})`}}>
                         <h4>{trip.country}, {trip.city}</h4>
-                    </p>
+                    </div>
                     <div className="Desc">
                         <p><i className="fa fa-sun-o"></i>&nbsp;Days - {trip.days}</p>
                         <p>&nbsp;<i className="fa fa-usd" aria-hidden="true"></i>

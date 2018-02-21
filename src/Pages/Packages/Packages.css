@@ -26,11 +26,13 @@
     background-repeat: no-repeat;
     height: 223px;
     width: 223px;
+    color: #fff;
 }
 
 .Packages-list .Desc {
     padding: 8px 0;
 }
+
 .Packages-list p {
     color: #fff;
 }

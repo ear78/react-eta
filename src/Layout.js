@@ -21,7 +21,7 @@ class Layout extends Component {
             <Route path="/" exact component={Home} />
             <Route path="/login" component={Login} />
             <Route path="/packages" component={Packages} />
-            <Route path="/:id" component={Package} />
+            <Route path="/package/:id" component={Package} />
         </Switch>
 
         <Footer />
