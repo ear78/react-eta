@@ -7,10 +7,10 @@ const footer = (props) => {
       <footer className="Footer">
           <div className="Footer-line"></div>
           <div className="Social-icons">
-              <a href="https://www.facebook.com" target="_blank"><i className="fab fa-facebook-f" aria-hidden="true"></i></a>
-              <a href=""><i className="fas fa-tree" aria-hidden="true"></i></a>
-              <a href="https://www.plus.google.com" target="_blank"><i className="fab fa-google-plus-g" aria-hidden="true"></i></a>
-              <a href=""><i className="fab fa-twitter" aria-hidden="true"></i></a>
+              <a href="https://www.facebook.com" target="_blank"><i className="fa fa-facebook-f" aria-hidden="true"></i></a>
+              <a href=""><i className="fa fa-tree" aria-hidden="true"></i></a>
+              <a href="https://www.plus.google.com" target="_blank"><i className="fa fa-google-plus" aria-hidden="true"></i></a>
+              <a href=""><i className="fa fa-twitter" aria-hidden="true"></i></a>
           </div>
           <p>Designed & Built By: Elliot Richardson</p>
       </footer>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import packagesData from '../../Data/PackagesData';
 import './Packages.css';
@@ -21,15 +22,18 @@ class Packages extends React.Component {
     render(){
         const packagesList = this.state.trips.map((trip,index) => {
             return (
-                <article key={index}>
+                <Link to={'/package/' + index} key={index}>
+                <article >
                     <p className="Image-container" style={{backgroundImage: `linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(${trip.img})`}}>
                         <h4>{trip.country}, {trip.city}</h4>
                     </p>
                     <div className="Desc">
-                        <p>Days - {trip.days}</p>
-                        <p>Price - ${trip.price.toLocaleString()}</p>
+                        <p><i className="fa fa-sun-o"></i>&nbsp;Days - {trip.days}</p>
+                        <p>&nbsp;<i className="fa fa-usd" aria-hidden="true"></i>
+&nbsp;&nbsp;Price - ${trip.price.toLocaleString()}</p>
                     </div>
                 </article>
+                </Link>
             )
 
         })

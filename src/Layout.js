@@ -6,7 +6,7 @@ import Home from './Pages/Home/Home';
 import Header from './Components/Header/Header';
 import Login from './Pages/Login/Login';
 import Packages from './Pages/Packages/Packages';
-import './Css/Reset.css';
+import Package from './Pages/Packages/Package/Package';
 import './Layout.css';
 
 import bgImage from './Images/isola1.jpg';
@@ -21,6 +21,7 @@ class Layout extends Component {
             <Route path="/" exact component={Home} />
             <Route path="/login" component={Login} />
             <Route path="/packages" component={Packages} />
+            <Route path="/:id" component={Package} />
         </Switch>
 
         <Footer />
