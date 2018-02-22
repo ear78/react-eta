@@ -1,21 +1,19 @@
 import React from 'react';
 
+import './Package.css';
+import PageTitle from '../../../Components/PageTitle/PageTitle';
 import packagesData from '../../../Data/PackagesData';
 
 class Package extends React.Component{
     constructor(props){
         super(props);
         this.state = {
-            trips: packagesData
+            trips: packagesData,
+            title: 'Reykjavik',
+            subTitle: 'Iceland'
         }
     }
 
-    componentDidMount(){
-        console.log(this.props)
-
-
-
-    }
     render(){
 
         const trip = this.state.trips.filter(trip => {
@@ -23,15 +21,19 @@ class Package extends React.Component{
                 return trip;
             }
         })
-        console.log(trip, this.state.trips);
+
         const vacation = trip.map((trip, id) => {
 
                 return (
                     <div key={trip.id}>
-                        <img src={trip.img} />
-                        <p>{trip.desc}</p>
+                        <div>
+                            <img src={trip.img} />
+                        </div>
+                        <div>
+                            <p>{trip.desc}</p>
                         <p>{trip.country} - {trip.city} - {trip.days} - {trip.price}
                         </p>
+                        </div>
 
                     </div>
                 )
@@ -39,7 +41,9 @@ class Package extends React.Component{
 
         });
         return (
-            <section>
+            <section className="Package">
+                <PageTitle
+                title={this.state.title} subTitle={this.state.subTitle}/>
                 {vacation}
             </section>
         )
