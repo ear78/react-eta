@@ -3,8 +3,8 @@ import React from 'react';
 import packagesData from '../../../Data/PackagesData';
 
 class Package extends React.Component{
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
         this.state = {
             trips: packagesData
         }
@@ -12,18 +12,32 @@ class Package extends React.Component{
 
     componentDidMount(){
         console.log(this.props)
+
+
+
     }
     render(){
-        const vacation = this.state.trips.map((trip, id) => {
 
-            return (
-                <div key={trip.id}>
-                    <p>{trip.country} - {trip.id} - {trip.city} - {trip.days} - {trip.price} - {trip.img}
-                    </p>
-                </div>
-            )
+        const trip = this.state.trips.filter(trip => {
+            if(trip.id == this.props.match.params.id){
+                return trip;
+            }
+        })
+        console.log(trip, this.state.trips);
+        const vacation = trip.map((trip, id) => {
+
+                return (
+                    <div key={trip.id}>
+                        <img src={trip.img} />
+                        <p>{trip.desc}</p>
+                        <p>{trip.country} - {trip.city} - {trip.days} - {trip.price}
+                        </p>
+
+                    </div>
+                )
+
+
         });
-
         return (
             <section>
                 {vacation}

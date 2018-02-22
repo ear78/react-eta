@@ -8,7 +8,7 @@ import Login from './Pages/Login/Login';
 import Packages from './Pages/Packages/Packages';
 import Package from './Pages/Packages/Package/Package';
 import './Layout.css';
-
+import packagesData from './Data/PackagesData';
 import bgImage from './Images/isola1.jpg';
 
 class Layout extends Component {
@@ -20,8 +20,8 @@ class Layout extends Component {
         <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/login" component={Login} />
-            <Route path="/packages" component={Packages} />
-            <Route path="/package/:id" component={Package} />
+            <Route path="/packages" component={Packages} data={packagesData}/>
+            <Route path="/package/:id" exact component={Package} />
         </Switch>
 
         <Footer />
