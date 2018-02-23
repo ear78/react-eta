@@ -3,6 +3,7 @@ import React from 'react';
 import './Package.css';
 import PageTitle from '../../../Components/PageTitle/PageTitle';
 import packagesData from '../../../Data/PackagesData';
+import Button from '../../../Components/Button/Button';
 
 class Package extends React.Component{
     constructor(props){
@@ -10,7 +11,8 @@ class Package extends React.Component{
         this.state = {
             trips: packagesData,
             title: 'Reykjavik',
-            subTitle: 'Iceland'
+            subTitle: 'Iceland',
+            marginTop: '',
         }
     }
 
@@ -23,18 +25,21 @@ class Package extends React.Component{
         })
 
         const vacation = trip.map((trip, id) => {
-
                 return (
-                    <div key={trip.id}>
+                    <div className="Vacation" key={trip.id}>
                         <div>
                             <img src={trip.img} />
                         </div>
-                        <div>
+                        <div className="right">
                             <p>{trip.desc}</p>
-                        <p>{trip.country} - {trip.city} - {trip.days} - {trip.price}
-                        </p>
+                            <p>
+                                <i className="fa fa-sun-o"></i>&nbsp;Days - {trip.days}
+                            </p>
+                            <p>
+                                &nbsp;<i className="fa fa-usd" aria-hidden="true"></i>&nbsp;&nbsp;Price - {trip.price}
+                            </p>
+                            <Button btnName={'Book Trip'} />
                         </div>
-
                     </div>
                 )
 
