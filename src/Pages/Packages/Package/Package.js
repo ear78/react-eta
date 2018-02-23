@@ -31,7 +31,7 @@ class Package extends React.Component{
                             <img src={trip.img} />
                         </div>
                         <div className="right">
-                            <p>{trip.desc}</p>
+                            <p className="desc">{trip.desc}</p>
                             <p>
                                 <i className="fa fa-sun-o"></i>&nbsp;Days - {trip.days}
                             </p>
