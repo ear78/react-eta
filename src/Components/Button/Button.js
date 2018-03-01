@@ -6,7 +6,7 @@ const button = (props) => {
     return (
         <button className="Button">
             {props.btnName}&nbsp;&nbsp;
-            <i class="fa fa-plane" aria-hidden="true"></i>
+            <i className="fa fa-plane" aria-hidden="true"></i>
     </button>
     )
 }
