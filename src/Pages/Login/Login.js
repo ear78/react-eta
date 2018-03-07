@@ -3,6 +3,7 @@ import React from "react";
 import PageTitle from '../../Components/PageTitle/PageTitle';
 import "./Login.css";
 
+import Button from '../../Components/Button/Button';
 import SignupButton from "../../Components/SignupButton/SignupButton";
 
 class Login extends React.Component {
@@ -43,7 +44,8 @@ class Login extends React.Component {
                     value={this.state.password}
                     onChange={this.onChange.bind(this)} name="password"/>
                     <p>Have An Account? Sign Up Below!</p>
-                    <button type="submit">Login</button>
+                    {/*<button type="submit">Login</button>*/}
+                    <Button btnName={'Login'}/>
                     <SignupButton />
                     </form>
                 </div>

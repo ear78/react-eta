@@ -7,7 +7,7 @@ const button = (props) => {
         <button className="Button">
             {props.btnName}&nbsp;&nbsp;
             <i className="fa fa-plane" aria-hidden="true"></i>
-    </button>
+        </button>
     )
 }
 

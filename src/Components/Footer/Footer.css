@@ -21,6 +21,13 @@
     align-items: center;
     text-decoration: none;
     color: #131313;
+    transition: all .2s ease-out;
+}
+
+.Footer a:hover {
+    border: 2px solid #000;
+    color: #fff;
+    background: rgba(0,0,0,.3);
 }
 
 .Footer .Social-icons {
