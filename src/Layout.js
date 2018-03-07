@@ -12,6 +12,12 @@ import packagesData from './Data/PackagesData';
 import bgImage from './Images/isola1.jpg';
 
 class Layout extends Component {
+    constructor(){
+        super();
+        this.state = {
+            
+        }
+    }
   render() {
     return (
       <div className="Layout">

@@ -2,41 +2,43 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "./Header.css";
-
-// import MobileMenuComponent from "../mobilemenu/MobileMenuComponent.js";
+import Sidemenu from '../Sidemenu/Sidemenu';
 
 class Header extends React.Component {
     constructor(props){
         super(props);
         this.state = {
-            showMenu: 'mobile-menu'
+            showMenu: 'mobile-menu',
+            isToggle: false
         }
     }
 
-    handleClickOpenMenu(){
-        this.setState({
-            showMenu: 'mobile-menu active'
-        })
+    handleClickOpenMenu = () => {
+        this.setState(prev => ({
+            isToggle: !prev.isToggle
+        }))
     }
 
-    hideMenu(){
-        this.setState({
-            showMenu: 'mobile-menu'
-        })
+    hideMenu = () => {
+        this.setState(prev => ({
+            isToggle: !prev.isToggle
+        }))
     }
 
   render() {
     return (
       <header className="Header">
-        <div onClick={this.handleClickOpenMenu.bind(this)} className="hambuger-container">
+        <div onClick={this.handleClickOpenMenu} className="hambuger-container">
             <i className="material-icons">menu</i>
         </div>
         <div>
             <Link to="/login"><button>Login</button></Link>
         </div>
 
-
-        {/*<MobileMenuComponent showMenu={this.state.showMenu} hideMenu={this.hideMenu.bind(this)}/>*/}
+        <Sidemenu 
+        toggle={this.state.isToggle}
+        click={this.hideMenu}
+        />
       </header>
     );
   }
