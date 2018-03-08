@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './Package.css';
 import PageTitle from '../../../Components/PageTitle/PageTitle';
@@ -38,7 +39,9 @@ class Package extends React.Component{
                             <p>
                                 &nbsp;<i className="fa fa-usd" aria-hidden="true"></i>&nbsp;&nbsp;Price - {trip.price}
                             </p>
-                            <Button btnName={'Book Trip'} />
+                            <Link to="/">
+                                <Button btnName={'Book Trip'} />
+                            </Link>
                         </div>
                     </div>
                 )

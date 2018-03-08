@@ -5,7 +5,6 @@ import './Button.css';
 
 const button = (props) => {
     return (
-        <Link to={props.pageLink}>
         <button 
             style={{
                 backgroundColor: props.backgroundColor,
@@ -14,7 +13,6 @@ const button = (props) => {
             {props.btnName}&nbsp;&nbsp;
             <i className="fa fa-podcast" aria-hidden="true"></i>
         </button>
-        </Link>
     )
 }
 

@@ -1,0 +1,13 @@
+.Menu-item {
+    margin-bottom: 10px;
+    transition: all .2s ease-out;
+}
+
+.Menu-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Menu-item a:hover {
+    color: gray;
+}
