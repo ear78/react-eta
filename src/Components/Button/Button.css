@@ -10,9 +10,10 @@
     color: white;
     -webkit-box-shadow: 1px 1px 5px rgba(0,0,0,.325);
     box-shadow: 1px 1px 5px rgba(0,0,0,.325);
+    transition: all .2s ease-out;
 }
 
 .Button:hover {
     cursor: pointer;
-    opacity: .85;
+    opacity: .8;
 }

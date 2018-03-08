@@ -49,24 +49,6 @@
   color: white;
 }
 
-/* .Login-background button {
-    background: #fff;
-    color: #000;
-} */
-
-/* .Login-background .signup-button button {
-    height: 45px;
-    width: 150px;
-    margin-top: 1vh;
-    text-transform: uppercase;
-    font-weight: 100;
-    background: black;
-    border: none;
-    border-radius: 2px;
-    color: white;
-    box-shadow: 1px 1px 5px rgba(0,0,0,.325);
-} */
-
 .Login-background p {
     font-size: .8em;
     color: lightgray;

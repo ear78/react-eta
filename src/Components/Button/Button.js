@@ -9,7 +9,8 @@ const button = (props) => {
         <button 
             style={{
                 backgroundColor: props.backgroundColor,
-                color: props.color}} className="Button">
+                color: props.color}} 
+                className="Button">
             {props.btnName}&nbsp;&nbsp;
             <i className="fa fa-podcast" aria-hidden="true"></i>
         </button>
