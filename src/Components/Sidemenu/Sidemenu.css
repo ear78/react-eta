@@ -16,3 +16,9 @@
 .slideOut {
     transform: translate3d(-100%, 0,0);
 }
+
+.Sidemenu .Close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
