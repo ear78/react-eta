@@ -7,6 +7,7 @@ import Header from './Components/Header/Header';
 import Login from './Pages/Login/Login';
 import Packages from './Pages/Packages/Packages';
 import Package from './Pages/Packages/Package/Package';
+import Signup from './Pages/Signup/Signup';
 import './Layout.css';
 import packagesData from './Data/PackagesData';
 import bgImage from './Images/isola1.jpg';
@@ -26,6 +27,7 @@ class Layout extends Component {
         <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/login" component={Login} />
+            <Route path="/signup" component={Signup} />
             <Route path="/packages" component={Packages} data={packagesData}/>
             <Route path="/package/:id" exact component={Package} />
         </Switch>
