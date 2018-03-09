@@ -9,6 +9,7 @@
     transition: all .3s ease-out;
     padding-top: 100px;
     text-align: center;
+    z-index: 1;
 }
 
 .slideIn {
@@ -23,4 +24,9 @@
     position: absolute;
     top: 10px;
     right: 15px;
+}
+
+.Sidemenu .Close:hover {
+    cursor: pointer;
+    color: gray;
 }

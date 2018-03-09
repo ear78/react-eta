@@ -15,5 +15,5 @@
 
 .Button:hover {
     cursor: pointer;
-    opacity: .8;
+    opacity: .5;
 }

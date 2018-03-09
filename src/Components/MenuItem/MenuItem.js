@@ -5,7 +5,7 @@ import './MenuItem.css';
 
 const menuItem = (props) => {
     return (
-        <li className="Menu-item">
+        <li onClick={props.clicked} className="Menu-item">
             <Link to={props.path}>{props.label}</Link>
         </li>
     )
