@@ -33,10 +33,10 @@ class Package extends React.Component{
                         </div>
                         <div className="right">
                             <p className="desc">{trip.desc}</p>
-                            <p>
+                            <p className="details">
                                 <i className="fa fa-sun-o"></i>&nbsp;Days - {trip.days}
                             </p>
-                            <p>
+                            <p className="details">
                                 &nbsp;<i className="fa fa-usd" aria-hidden="true"></i>&nbsp;&nbsp;Price - {trip.price}
                             </p>
                             <Link to="/">

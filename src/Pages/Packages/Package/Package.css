@@ -1,7 +1,8 @@
 .Package {
-    height: 65vh;
     max-width: 785px;
     margin: 0 auto;
+    padding: 0 15px;
+    min-height: 65vh;
 }
 
 .Package .Vacation {
@@ -19,4 +20,8 @@
 
 .Package .Vacation .desc {
     margin-bottom: 25px;
+}
+
+.Package .details {
+  margin-bottom: 5px;
 }

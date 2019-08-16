@@ -5,6 +5,7 @@ import packagesData from '../../Data/PackagesData';
 import './Packages.css';
 import truck from '../../Images/tim-trad-truck.jpg';
 import PageTitle from '../../Components/PageTitle/PageTitle';
+import IconDetails from '../../Components/IconDetails/IconDetails'
 
 class Packages extends React.Component {
     constructor(){
@@ -28,9 +29,16 @@ class Packages extends React.Component {
                         <h4>{trip.country}, {trip.city}</h4>
                     </div>
                     <div className="Desc">
-                        <p><i className="fa fa-sun-o"></i>&nbsp;Days - {trip.days}</p>
-                        <p>&nbsp;<i className="fa fa-usd" aria-hidden="true"></i>
-&nbsp;&nbsp;Price - ${trip.price.toLocaleString()}</p>
+                        <IconDetails
+                          textColor='light'
+                          icon='fa-sun-o'
+                          type='days'
+                          value={trip.days}/>
+                        <IconDetails
+                          textColor='light'
+                          icon='fa-usd'
+                          type='price'
+                          value={trip.price.toLocaleString('en-US', {style: 'currency', currency: 'USD', minimumFractionDigits: 0})}/>
                     </div>
                 </article>
                 </Link>

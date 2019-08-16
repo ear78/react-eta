@@ -5,13 +5,12 @@
     height: 75vh;
     overflow-y: scroll;
     background: rgba(0,0,0,.35);
-    width: 90%;
+    width: 75%;
     margin: 0 auto;
     border-radius: 3px;
     padding-top: 5px;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    max-width: 575px;
 }
 
 .Packages-list {
